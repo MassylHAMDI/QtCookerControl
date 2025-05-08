@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SPEED_H
+#define SPEED_H
 
 #include <QWidget>
 
@@ -10,12 +11,19 @@ public:
     void setSpeed(int value);
     int speed() const;
 
+    void setSelected(bool selected);
+    bool isSelected() const;
+
+signals:
+    void clicked();
+
 protected:
     void paintEvent(QPaintEvent *event) override;
+    void mousePressEvent(QMouseEvent *event) override;
 
 private:
     int m_speed;
-    
+    bool m_selected;
 };
 
-
+#endif // SPEED_H
