@@ -11,7 +11,7 @@ Ce projet a pour but de créer une **interface graphique embarquée** (IHM) pour
 - ✅ Affichage de la **vitesse de rotation** via une jauge semi-circulaire moderne
 - ✅ Contrôle de la vitesse avec **boutons + / –**
 - ⏳ Retour sonore **"toc"** à chaque changement de vitesse
-- ⏳ Ajout futur : réglage de la température et du temps de cuisson
+- ✅ Ajout de la température et du temps de cuisson
 - ⏳ Support écran tactile sur Raspberry Pi
 
 ---
@@ -45,11 +45,9 @@ Créer une interface complète embarquée pour le robot cuiseur, avec :
 ---
 
 ## 🛠️ À venir
-
-- Ajout des boutons de démarrage/arrêt
 - Ajout du moteur 800w
-- Intégration capteurs de température / consigne
-- Communication avec un microcontrôleur ou Raspberry Pi
+- Intégration capteurs 
+- Communication avec Raspberry Pi
 - lecture de recettes
 
 ---
