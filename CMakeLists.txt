@@ -9,9 +9,14 @@ set(Qt6_DIR "C:/Qt/6.9.0/mingw_64/lib/cmake/Qt6")
 find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia)
 
 set(SOURCES
-    maintest.cpp
-    speed.cpp
-    speed.hpp
+    main.cpp
+    ui/speed.cpp
+    ui/speed.h
+    ui/temperaturecontrol.cpp
+    ui/temperaturecontrol.h
+    ui/timercontrol.cpp
+    ui/timercontrol.h
+    
 )
 
 

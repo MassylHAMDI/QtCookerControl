@@ -3,9 +3,9 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-#include "temperaturecontrol.h"
-#include "speed.h"
-#include "timercontrol.h"
+#include "ui/temperaturecontrol.h"
+#include "ui/speed.h"
+#include "ui/timercontrol.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
